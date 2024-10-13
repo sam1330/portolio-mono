@@ -1,19 +1,17 @@
+import CssIcon from "./Icons/CssIcon";
 import GitIcon from "./Icons/GitIcon";
+import HtmlIcon from "./Icons/HtmlIcon";
 import JSIcon from "./Icons/JSIcon";
+import LaravelIcon from "./Icons/LaravelIcon";
+import NodeIcon from "./Icons/NodeIcon";
+import PhpIcon from "./Icons/PhpIcon";
 import ReactIcon from "./Icons/ReactIcon";
+import TailwindIcon from "./Icons/TailwindIcon";
 import TSIcon from "./Icons/TSIcon";
 
 const skills = [
   {
     name: "Git",
-    icon: <GitIcon />,
-  },
-  {
-    name: "HTML",
-    icon: <GitIcon />,
-  },
-  {
-    name: "CSS",
     icon: <GitIcon />,
   },
   {
@@ -28,6 +26,30 @@ const skills = [
     name: "React",
     icon: <ReactIcon />,
   },
+  {
+    name: "PHP",
+    icon: <PhpIcon />,
+  },
+  {
+    name: "Laravel",
+    icon: <LaravelIcon />,
+  },
+  {
+    name: "Node js",
+    icon: <NodeIcon />,
+  },
+  {
+    name: "HTML",
+    icon: <HtmlIcon />,
+  },
+  {
+    name: "CSS",
+    icon: <CssIcon />,
+  },
+  {
+    name: "Tailwind",
+    icon: <TailwindIcon />,
+  },
 ];
 
 const MySkills = () => {
@@ -35,7 +57,7 @@ const MySkills = () => {
     <div className="w-full flex justify-center bg-gray-100">
       <div className="w-full md:w-3/4 flex flex-col d-inline-block text-center items-center">
         <h1 className="mt-10 text-6xl font-light leading-[5rem]">
-          My <span className="font-semibold">Skills</span>
+          Main <span className="font-semibold">Skills</span>
         </h1>
         <div className="flex flex-row flex-wrap gap-10 mt-[100px] w-full md:max-w-[1094px]">
           {skills.map((skill, index) => (
