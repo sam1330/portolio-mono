@@ -54,7 +54,7 @@ const skills = [
 
 const MySkills = () => {
   return (
-    <div className="w-full flex justify-center bg-gray-100">
+    <div className="w-full flex justify-center">
       <div className="w-full md:w-3/4 flex flex-col d-inline-block text-center items-center">
         <h1 className="mt-10 text-6xl font-light leading-[5rem]">
           Main <span className="font-semibold">Skills</span>

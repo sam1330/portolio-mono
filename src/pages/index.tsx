@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
+import MyExperience from "@/components/MyExperience";
 import MySkills from "@/components/MySkills";
 
 export default function Home() {
@@ -8,6 +9,7 @@ export default function Home() {
       <Menu />
       <Hero />
       <MySkills />
+      <MyExperience />
     </div>
   );
 }
