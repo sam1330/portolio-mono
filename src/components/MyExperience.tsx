@@ -11,6 +11,7 @@ interface IEmployment {
     date: string;
     image: StaticImport | string;
     description: string;
+    techUsed: string;
 }
 
 const MyExperience = () => {
@@ -20,21 +21,24 @@ const MyExperience = () => {
       location: "Remote",
       date: "Apr 2023 - Present",
       image: ElaniinImage,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      description: "I work developing full stack features, primarily using Next.js, Laravel, MySQL, and Docker. I contributed to the development of a significant system for the government of El Salvador, automating processes to prepare reports, fines, and extensions, reducing the response and processing time of visa and residency applications by 80%. Additionally, I refactor and build high-quality, reusable components, implementing design patterns and best practices to expedite development time. My work also involve implementing TDD and DDD methodologies, while documenting every endpoint and component to ensure clarity in the development and maintenance processes.",
+      techUsed: "Next.js, Typescript, PHP, Laravel, MySQL, Docker, Git, GitLab, Tailwind, React Query, Cypress, PHPUnit, Docker Compose",
     },
     {
       title: "Full Stack Engineer at ProGPS & Technology",
       location: "Remote",
       date: "Jul 2022 - Apr 2023",
       image: ProGPSImage,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      description: "I worked with React.js, Laravel and MySQL to develop new features, fix bugs, and write tests for both existing and new code. I developed new core functionalities such as POS and inventory systems, which expanded the software’s capabilities and helped attract new clients, resulting in a 40% increase in sales. Additionally, I optimized legacy Laravel queries and enhanced the application's overall performance, improving API response times.",
+      techUsed: "React.js, Laravel, MySQL, Git, BitBucket, Docker, Bootstrap, PHPUnit, Jest",
     },
     {
-      title: "Full Stack Engineer at Aura Systems",
+      title: "Jr. Full Stack Engineer at Aura Systems",
       location: "Santiago, D.R.",
       date: "Jun 2021 - Jul 2022",
       image: AuraImage,
-      description: "Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.",
+      description: "I worked with Vue, Laravel and MySQL. I created a component library with Vue 3 and TypeScript, which accelerated development time by up to 60%. Additionally, I developed a desktop application and implemented a routine to enable communication between Jackpot machines and computers via sockets using Python.",
+      techUsed: "Vue 2, Vue 3, Javascript, Typescript, Laravel, MySQL, Python, Socket.IO, Pusher, Electron",
     },
   ];
   return (
@@ -63,6 +67,9 @@ const MyExperience = () => {
 
             {/* // Description */}
             <p className="mt-4 text-stone-300">{employment.description}</p>
+
+            {/* // Tech used */}
+            <p className="mt-4"><span className="font-semibold">Technologies used: </span>{employment.techUsed}</p>
           </div>
         ))}
       </div>
