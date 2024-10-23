@@ -42,7 +42,7 @@ const MyExperience = () => {
     },
   ];
   return (
-    <div className="w-full flex justify-center mt-20 bg-black text-white">
+    <div className="w-full flex justify-center mt-20 bg-black text-white pb-20">
       <div className="w-full md:w-3/4 flex flex-col d-inline-block text-center items-center">
         <h1 className="mt-10 mb-10 text-6xl font-light leading-[5rem]">
           My <span className="font-semibold">Experience</span>

@@ -1,3 +1,4 @@
+import AboutMe from "@/components/AboutMe";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import MyExperience from "@/components/MyExperience";
@@ -10,6 +11,7 @@ export default function Home() {
       <Hero />
       <MySkills />
       <MyExperience />
+      <AboutMe />
     </div>
   );
 }
