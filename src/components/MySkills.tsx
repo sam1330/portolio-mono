@@ -35,6 +35,10 @@ const skills = [
     icon: <LaravelIcon />,
   },
   {
+    name: "MySQL",
+    icon: <NodeIcon />,
+  },
+  {
     name: "Node js",
     icon: <NodeIcon />,
   },
@@ -50,6 +54,10 @@ const skills = [
     name: "Tailwind",
     icon: <TailwindIcon />,
   },
+  {
+    name: "Vue js",
+    icon: <TailwindIcon />,
+  },
 ];
 
 const MySkills = () => {
@@ -59,7 +67,7 @@ const MySkills = () => {
         <h1 className="mt-10 text-6xl font-light leading-[5rem]">
           Main <span className="font-semibold">Skills</span>
         </h1>
-        <div className="flex flex-row flex-wrap gap-10 mt-[100px] w-full md:max-w-[1094px]">
+        <div className="flex flex-row flex-wrap gap-10 mt-[100px] w-full md:max-w-[1330px]">
           {skills.map((skill, index) => (
             <div
               key={index}
