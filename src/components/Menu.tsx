@@ -30,7 +30,7 @@ const Menu = () => {
         </div>
 
         <a
-          href="https://sam1330.github.io/portolio-mono/assets/Samuel Martinez Resume - Full Stack developer.pdf"
+          href="https://sam1330.github.io/portolio-mono/assets/Samuel Martinez - Full Stack Developer.pdf"
           download="Samuel Martinez Resume"
           className="bg-black hover:bg-gray-800 text-white font-semibold  py-2 px-4 rounded flex gap-2 items-center"
         >
