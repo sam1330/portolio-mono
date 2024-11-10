@@ -77,13 +77,6 @@ const MySkills = () => {
               <p className="text-3xl text-center">{skill.name}</p>
             </div>
           ))}
-          {/* <div className="font-semibold border-4 border-black rounded w-[230px] h-[230px]">
-                    <GitIcon />
-                </div>
-                <div className="font-semibold border-4 border-black rounded w-[230px] h-[230px]"></div>
-                <div className="font-semibold border-4 border-black rounded w-[230px] h-[230px]"></div>
-                <div className="font-semibold border-4 border-black rounded w-[230px] h-[230px]"></div>
-                <div className="font-semibold border-4 border-black rounded w-[230px] h-[230px]"></div> */}
         </div>
       </div>
     </div>

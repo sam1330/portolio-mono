@@ -1,14 +1,36 @@
+'use client'
+
+import { useEffect, useState } from "react";
 import MeIcon from "./Icons/MeIcon";
 
 const AboutMe = () => {
+  const [windowSize, setWindowSize] = useState({
+    width: 0,
+    height: 0,
+  });
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowSize({
+        width: window.innerWidth,
+        height: window.innerHeight,
+      });
+    }
+
+    window.addEventListener('resize', handleResize);
+    handleResize();
+
+    return () => window.removeEventListener('resize', handleResize);  
+
+  }, []);
   return (
-    <div className="w-full h-screen min-h-[700px] flex justify-center md:h-4/5 items-center ">
-      <div className="w-full h-full min-h-[700px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-[100px]">
-        <div className="d-inline-block">
-          <MeIcon />
+    <div className="w-full min-h-[700px] flex justify-center md:h-4/5 items-center ">
+      <div className="w-full h-full min-h-[700px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-5 md:pt-[100px]">
+        <div className="md:d-inline-block flex justify-center items-center">
+          <MeIcon width={windowSize.width > 565 ? 530 : '80%' } height={windowSize.height > 565 ? 572 : '80%'} />
         </div>
-        <div className="w-full md:w-[55%]">
-          <h1 className="mt-10 text-6xl font-light leading-[5rem] mb-10">
+        <div className="w-full px-5 md:w-[55%]">
+          <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
             About <span className="font-semibold">Me</span>
           </h1>
           <p className=" text-stone-500 mb-7">

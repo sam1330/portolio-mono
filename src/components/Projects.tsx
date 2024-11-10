@@ -6,15 +6,15 @@ import CarWorkshop from "@/components/Icons/Car workshop.png"
 
 const Projects = () => {
   return (
-    <div className="w-full flex justify-center mt-20 bg-black text-white pb-20">
+    <div className="w-full flex justify-center mt-20 bg-black text-white pb-20 px-5 md:px-0">
       <div className="w-full md:w-full flex flex-col d-inline-block items-center">
-        <h1 className="mt-10 mb-10 text-6xl font-light leading-[5rem]">
+        <h1 className="mt-10 md:mb-10 text-6xl font-light leading-[5rem]">
           My <span className="font-semibold">Projects</span>
         </h1>
 
         {/* PROJECT 1 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-[100px]">
-          <div className="d-inline-block w-[40%] h-[400px] rounded-lg">
+        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-10 md:pt-[100px]">
+          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg">
             <Image
               src={GasRD}
               alt="Gasolina RD"
@@ -24,7 +24,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-full md:w-[50%]">
-            <h1 className="mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Gasolina RD
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
@@ -43,9 +43,9 @@ const Projects = () => {
           </div>
         </div>
         {/* PROJECT 2 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative">
+        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
           <div className="w-full md:w-[50%]">
-            <h1 className="mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Traveler
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
@@ -62,7 +62,7 @@ const Projects = () => {
               MySQl and GraphQL.
             </p>
           </div>
-          <div className="d-inline-block w-[40%] h-[400px] rounded-lg">
+          <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
             <Image
               src={Traveler}
               alt="Traveler"
@@ -73,8 +73,8 @@ const Projects = () => {
           </div>
         </div>
         {/* PROJECT 3 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative">
-          <div className="d-inline-block w-[40%] h-[400px] rounded-lg">
+        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-[80px]">
+          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg">
             <Image
               src={CarWorkshop}
               alt="Car Workshop POS"
@@ -84,7 +84,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-full md:w-[50%]">
-            <h1 className="mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Point of sale
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
