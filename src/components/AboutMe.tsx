@@ -24,10 +24,10 @@ const AboutMe = () => {
 
   }, []);
   return (
-    <div className="w-full min-h-[700px] flex justify-center md:h-4/5 items-center ">
+    <div id="about-me" className="w-full min-h-[700px] flex justify-center md:h-4/5 items-center">
       <div className="w-full h-full min-h-[700px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-5 md:pt-[100px]">
         <div className="md:d-inline-block flex justify-center items-center">
-          <MeIcon width={windowSize.width > 565 ? 530 : '80%' } height={windowSize.height > 565 ? 572 : '80%'} />
+          <MeIcon width={windowSize.width > 1024 ? 530 : '80%' } height={windowSize.width > 1024 ? 572 : '80%'} />
         </div>
         <div className="w-full px-5 md:w-[55%]">
           <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">

@@ -2,8 +2,8 @@ const Banner = ({
   width = "889",
   height = "596",
 }: {
-  width?: string;
-  height?: string;
+  width?: string | number;
+  height?: string | number;
 }) => {
   return (
     <svg

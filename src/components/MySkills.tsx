@@ -62,12 +62,12 @@ const skills = [
 
 const MySkills = () => {
   return (
-    <div className="w-full flex justify-center">
+    <div id="skills" className="w-full flex justify-center">
       <div className="w-full md:w-3/4 flex flex-col d-inline-block text-center items-center">
         <h1 className="mt-10 text-6xl font-light leading-[5rem]">
           Main <span className="font-semibold">Skills</span>
         </h1>
-        <div className="flex flex-row flex-wrap gap-10 mt-[100px] w-full md:max-w-[1330px]">
+        <div className="flex flex-row flex-wrap justify-center gap-10 mt-[100px] w-full md:max-w-[1330px]">
           {skills.map((skill, index) => (
             <div
               key={index}

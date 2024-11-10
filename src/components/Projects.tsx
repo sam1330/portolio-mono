@@ -1,12 +1,15 @@
 import Image from "next/image";
 import React from "react";
-import GasRD from "@/components/Icons/Gasolina RD.png"
-import Traveler from "@/components/Icons/traveler.png"
-import CarWorkshop from "@/components/Icons/Car workshop.png"
+import GasRD from "@/components/Icons/Gasolina RD.png";
+import Traveler from "@/components/Icons/traveler.png";
+import CarWorkshop from "@/components/Icons/Car workshop.png";
 
 const Projects = () => {
   return (
-    <div className="w-full flex justify-center mt-20 bg-black text-white pb-20 px-5 md:px-0">
+    <div
+      id="projects"
+      className="w-full flex justify-center mt-20 bg-black text-white pb-20 px-5 md:px-0"
+    >
       <div className="w-full md:w-full flex flex-col d-inline-block items-center">
         <h1 className="mt-10 md:mb-10 text-6xl font-light leading-[5rem]">
           My <span className="font-semibold">Projects</span>
@@ -34,7 +37,7 @@ const Projects = () => {
               is corruption with the stations and it is necessary to know which
               ones sell good fuel to avoid damaging your vehicle. You can filter
               by fuel type, province or city and stations directly. Also you can
-              see the results of tests done by the govDFernment
+              see the results of tests done by the government.
               <br />
               <br />
               In this project I used Next.js, Typescript, Tailwind, Node Js,
@@ -49,17 +52,16 @@ const Projects = () => {
               Traveler
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
-              This is a simple but very useful project. It is a web application
-              which allows you to find fuel stations that comply with
-              international regulations, since in the Dominican Republic there
-              is corruption with the stations and it is necessary to know which
-              ones sell good fuel to avoid damaging your vehicle. You can filter
-              by fuel type, province or city and stations directly. Also you can
-              see the results of tests done by the govDFernment
+              This project is made for when you are on a trip and want to look
+              for places to visit. It is a web application that allows you to
+              find places to visit anywhere in the world, you can filter by type
+              of place and rating. As long as is in the map viewport, it will
+              look for places and you can see information about the places such
+              as price range, type of place, and rating.
               <br />
               <br />
-              In this project I used Next.js, Typescript, Tailwind, Node Js,
-              MySQl and GraphQL.
+              In this project I used React.js, Axios, Material UI, Node Js,
+              Google Maps and trip advisor API.
             </p>
           </div>
           <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
@@ -88,19 +90,22 @@ const Projects = () => {
               Point of sale
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
-              This is a simple but very useful project. It is a web application
-              which allows you to find fuel stations that comply with
-              international regulations, since in the Dominican Republic there
-              is corruption with the stations and it is necessary to know which
-              ones sell good fuel to avoid damaging your vehicle. You can filter
-              by fuel type, province or city and stations directly. Also you can
-              see the results of tests done by the govDFernment
+              This is a point of sale for a car workshop. It is a web
+              application which allows you to manage the inventory, sales,
+              employees and more of the workshop, you can also see the reports
+              of the sales and the inventory. It also has integration tests with
+              Cypress and PHPUnit to ensure the quality of the code and the app
+              is fully dockerized.
               <br />
               <br />
-              In this project I used Next.js, Typescript, Tailwind, Node Js,
-              MySQL and GraphQL.
+              In this project I used Laravel, Blade, MySQL, Bootstrap, Cypress,
+              PHPUnit and Docker.
             </p>
           </div>
+        </div>
+
+        <div>
+          <h2 className="text-xl font-semibold mt-10">You can find more interesting projects on my <a href="https://github.com/sam1330" target="_blank" className="text-blue-600 hover:text-blue-800 underline">GitHub</a></h2>
         </div>
       </div>
     </div>
