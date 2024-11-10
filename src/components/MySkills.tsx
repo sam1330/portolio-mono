@@ -3,11 +3,13 @@ import GitIcon from "./Icons/GitIcon";
 import HtmlIcon from "./Icons/HtmlIcon";
 import JSIcon from "./Icons/JSIcon";
 import LaravelIcon from "./Icons/LaravelIcon";
+import MySQLIcon from "./Icons/MySQLIcon";
 import NodeIcon from "./Icons/NodeIcon";
 import PhpIcon from "./Icons/PhpIcon";
 import ReactIcon from "./Icons/ReactIcon";
 import TailwindIcon from "./Icons/TailwindIcon";
 import TSIcon from "./Icons/TSIcon";
+import VueIcon from "./Icons/VueIcon";
 
 const skills = [
   {
@@ -36,7 +38,7 @@ const skills = [
   },
   {
     name: "MySQL",
-    icon: <NodeIcon />,
+    icon: <MySQLIcon />,
   },
   {
     name: "Node js",
@@ -56,7 +58,7 @@ const skills = [
   },
   {
     name: "Vue js",
-    icon: <TailwindIcon />,
+    icon: <VueIcon />,
   },
 ];
 
