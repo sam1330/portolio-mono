@@ -3,6 +3,7 @@ import React from "react";
 import GasRD from "@/components/Icons/Gasolina RD.png";
 import CarWorkshop from "@/components/Icons/Car workshop.png";
 import CVEnhance from "@/components/Icons/CvEnhance.png";
+import Traveler from "@/components/Icons/traveler.png";
 
 const Projects = () => {
   return (
@@ -99,6 +100,36 @@ const Projects = () => {
               In this project I used Laravel, Blade, MySQL, Bootstrap, Cypress,
               PHPUnit and Docker.
             </p>
+          </div>
+        </div>
+
+        {/* PROJECT 4 */}
+        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
+          <div className="w-full md:w-[50%]">
+            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
+              Traveler
+            </h1>
+            <p className=" text-stone-500 mb-7 text-lg">
+              This project is made for when you are on a trip and want to look
+              for places to visit. It is a web application that allows you to
+              find places to visit anywhere in the world, you can filter by type
+              of place and rating. As long as is in the map viewport, it will
+              look for places and you can see information about the places such
+              as price range, type of place, and rating.
+              <br />
+              <br />
+              In this project I used React.js, Axios, Material UI, Node Js,
+              Google Maps and trip advisor API.
+            </p>
+          </div>
+          <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
+            <Image
+              src={Traveler}
+              alt="Traveler"
+              className="rounded-lg w-full h-full"
+              width={700}
+              height={400}
+            />
           </div>
         </div>
 
