@@ -24,7 +24,7 @@ const Hero = () => {
     return () => window.removeEventListener("resize", handleResize);
   }, []);
 
-  const DynamicSplitTextComponent = dynamic(() => import("./Animated/Splittext"), {
+  const DynamicSplitTextComponent = dynamic(() => import("./Animated/SplitText"), {
     ssr: false,
   });
 
