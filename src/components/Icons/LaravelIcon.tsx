@@ -1,9 +1,9 @@
 const LaravelIcon = () => {
   return (
     <svg
-      height="50"
+      height="80"
       viewBox="0 -.11376601 49.74245785 51.31690859"
-      width="56"
+      width="86"
       xmlns="http://www.w3.org/2000/svg"
     >
       <path

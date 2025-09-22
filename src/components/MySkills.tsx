@@ -1,64 +1,89 @@
+import LogoLoop from "./Animated/LogoLoop";
 import CssIcon from "./Icons/CssIcon";
+import DockerIcon from "./Icons/DockerIcon";
 import GitIcon from "./Icons/GitIcon";
 import HtmlIcon from "./Icons/HtmlIcon";
 import JSIcon from "./Icons/JSIcon";
 import LaravelIcon from "./Icons/LaravelIcon";
 import MySQLIcon from "./Icons/MySQLIcon";
 import NodeIcon from "./Icons/NodeIcon";
+import OpenAIIcon from "./Icons/OpenAIIcon";
 import PhpIcon from "./Icons/PhpIcon";
+import PostgreSQLIcon from "./Icons/PostgreSQLIcon";
 import ReactIcon from "./Icons/ReactIcon";
 import TailwindIcon from "./Icons/TailwindIcon";
 import TSIcon from "./Icons/TSIcon";
-import VueIcon from "./Icons/VueIcon";
 
 const skills = [
   {
-    name: "Git",
-    icon: <GitIcon />,
+    title: "Git",
+    node: <GitIcon />,
+    href: "https://git-scm.com/",
   },
   {
-    name: "JavaScript",
-    icon: <JSIcon />,
+    title: "JavaScript",
+    node: <JSIcon />,
+    href: "https://developer.mozilla.org/es/docs/Web/JavaScript",
   },
   {
-    name: "TypeScript",
-    icon: <TSIcon />,
+    title: "TypeScript",
+    node: <TSIcon />,
+    href: "https://www.typescriptlang.org/",
   },
   {
-    name: "React",
-    icon: <ReactIcon />,
+    title: "React",
+    node: <ReactIcon />,
+    href: "https://react.dev/",
   },
   {
-    name: "PHP",
-    icon: <PhpIcon />,
+    title: "PHP",
+    node: <PhpIcon />,
+    href: "https://www.php.net/",
   },
   {
-    name: "Laravel",
-    icon: <LaravelIcon />,
+    title: "Laravel",
+    node: <LaravelIcon />,
+    href: "https://laravel.com/",
   },
   {
-    name: "MySQL",
-    icon: <MySQLIcon />,
+    title: "MySQL",
+    node: <MySQLIcon />,
+    href: "https://www.mysql.com/",
   },
   {
-    name: "Node js",
-    icon: <NodeIcon />,
+    title: "PostgreSQL",
+    node: <PostgreSQLIcon />,
+    href: "https://www.postgresql.org/",
   },
   {
-    name: "HTML",
-    icon: <HtmlIcon />,
+    title: "Node js",
+    node: <NodeIcon />,
+    href: "https://nodejs.org/en/",
   },
   {
-    name: "CSS",
-    icon: <CssIcon />,
+    title: "HTML",
+    node: <HtmlIcon />,
+    href: "https://developer.mozilla.org/es/docs/Web/HTML",
   },
   {
-    name: "Tailwind",
-    icon: <TailwindIcon />,
+    title: "CSS",
+    node: <CssIcon />,
+    href: "https://developer.mozilla.org/es/docs/Web/CSS",
   },
   {
-    name: "Vue js",
-    icon: <VueIcon />,
+    title: "Tailwind",
+    node: <TailwindIcon />,
+    href: "https://tailwindcss.com/",
+  },
+  {
+    title: "Docker",
+    node: <DockerIcon />,
+    href: "https://www.docker.com/",
+  },
+  {
+    title: "OpenAI API",
+    node: <OpenAIIcon />,
+    href: "https://openai.com/es-ES/api/",
   },
 ];
 
@@ -70,7 +95,19 @@ const MySkills = () => {
           Main <span className="font-semibold">Skills</span>
         </h1>
         <div className="flex flex-row flex-wrap justify-center gap-10 mt-[100px] w-full md:max-w-[1330px]">
-          {skills.map((skill, index) => (
+          <LogoLoop
+            logos={skills}
+            speed={120}
+            direction="left"
+            logoHeight={58}
+            gap={40}
+            pauseOnHover
+            scaleOnHover
+            fadeOut
+            fadeOutColor="#ffffff"
+            ariaLabel="Technology partners"
+          />
+          {/* {skills.map((skill, index) => (
             <div
               key={index}
               className="font-semibold border-4 border-black rounded w-[186px] h-[186px] flex flex-col justify-center items-center gap-7"
@@ -78,7 +115,7 @@ const MySkills = () => {
               {skill.icon}
               <p className="text-3xl text-center">{skill.name}</p>
             </div>
-          ))}
+          ))} */}
         </div>
       </div>
     </div>

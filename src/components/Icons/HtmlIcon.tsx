@@ -1,13 +1,13 @@
 const HtmlIcon = () => {
   return (
     <svg
-      width="50"
-      height="56"
+      width="80"
+      height="86"
       fill="#000000"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
       viewBox="0 0 512 512"
-      enable-background="new 0 0 512 512"
+      enableBackground="new 0 0 512 512"
     >
       <g id="SVGRepo_bgCarrier" stroke-width="0"></g>
       <g

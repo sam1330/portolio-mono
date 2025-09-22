@@ -1,8 +1,8 @@
 const PhpIcon = () => {
   return (
     <svg
-      height="50"
-      width="56"
+      height="90"
+      width="96"
       viewBox="0 0 32 32"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

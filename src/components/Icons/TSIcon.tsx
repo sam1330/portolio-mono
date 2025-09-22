@@ -1,8 +1,8 @@
 const TSIcon = () => {
   return (
     <svg
-      width="57"
-      height="56"
+      width="87"
+      height="86"
       viewBox="0 0 57 56"
       fill="none"
       xmlns="http://www.w3.org/2000/svg"

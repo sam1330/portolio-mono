@@ -1,8 +1,8 @@
 const MySQLIcon = () => {
   return (
     <svg
-      width="50"
-      height="56"
+      width="80"
+      height="86"
       viewBox="0 0 73 73"
       version="1.1"
       xmlns="http://www.w3.org/2000/svg"
