@@ -1,3 +1,4 @@
+import PillNav from "./Animated/PillNav";
 import DownloadIcon from "./Icons/DownloadIcon";
 
 const Menu = () => {
@@ -5,7 +6,22 @@ const Menu = () => {
     <div className="w-full justify-center h-screen md:h-24 items-center hidden md:flex">
       <div className="w-full md:w-3/4 flex gap-10 justify-between items-center flex-col md:flex-row">
         <div className="d-inline-block text-lg font-semibold">
-          <ul className="flex gap-6 flex-col md:flex-row">
+          <PillNav
+            items={[
+              { label: "Skills", href: "#skills" },
+              { label: "Experience", href: "#experience" },
+              { label: "About me", href: "#about-me" },
+              { label: "Projects", href: "#projects" },
+            ]}
+            activeHref="/"
+            className="custom-nav"
+            ease="power2.easeOut"
+            baseColor="#000000"
+            pillColor="#ffffff"
+            hoveredPillTextColor="#ffffff"
+            pillTextColor="#000000"
+          />
+          {/* <ul className="flex gap-6 flex-col md:flex-row">
             <li>
               <a href="#skills" className="text-black hover:text-gray-800">
                 Skills
@@ -26,7 +42,7 @@ const Menu = () => {
                 Projects
               </a>
             </li>
-          </ul>
+          </ul> */}
         </div>
 
         <a
