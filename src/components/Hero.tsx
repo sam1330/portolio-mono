@@ -77,7 +77,7 @@ const Hero = () => {
           />
           <br />
           <DynamicSplitTextComponent
-            text="Full Stack "
+            text="Full Stack & AI"
             className="text-6xl font-extrabold text-center"
             delay={200}
             duration={0.6}

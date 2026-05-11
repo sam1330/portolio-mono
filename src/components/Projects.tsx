@@ -16,37 +16,47 @@ const Projects = () => {
           My <span className="font-semibold">Projects</span>
         </h1>
 
-        {/* PROJECT 1 */}
+        {/* PROJECT: HAKU AI */}
         <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-10 md:pt-[100px]">
-          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg">
-            <Image
-              src={CVEnhance}
-              alt="CVEnhance"
-              className="rounded-lg w-full h-full"
-              width={700}
-              height={400}
-            />
+          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center">
+            <div className="text-center">
+              <p className="text-white text-5xl font-bold">HAKU</p>
+              <p className="text-blue-200 text-lg mt-2">AI</p>
+            </div>
           </div>
           <div className="w-full md:w-[50%]">
-            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
-              CvEnhance
+            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
+              Haku AI
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
-              This is a very powerful project. It is a web application that
-              allows you to upload your CV, analyze it and get a AI
-              recommendations on how to enhance your CV for a job offer that you
-              can also upload.
+              A cutting-edge AI platform designed to deliver intelligent
+              solutions for modern businesses. Haku AI leverages generative AI
+              to automate complex workflows, provide intelligent insights, and
+              enhance customer experiences at scale.
               <br />
               <br />
-              In this project I used Next.js, Typescript, Tailwind, Node Js,
-              JWT, OpenAI API, and PostgreSQL.
+              Key features include custom AI agents, document processing,
+              intelligent chatbots, and data extraction pipelines. Built with
+              enterprise-grade architecture for reliability and scalability.
+              <br />
+              <br />
+              In this project I used Next.js, TypeScript, Gemini API, Vertex
+              AI, Google Cloud, Python, LangChain, and RAG architectures.
             </p>
+            <a
+              href="https://haku-ai.com"
+              target="_blank"
+              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              Visit Haku AI →
+            </a>
           </div>
         </div>
+
         {/* PROJECT 2 */}
         <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
           <div className="w-full md:w-[50%]">
-            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Gasolina RD
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
@@ -62,6 +72,13 @@ const Projects = () => {
               In this project I used Next.js, Typescript, Tailwind, Node Js,
               MySQL and GraphQL.
             </p>
+            <a
+              href="https://github.com/sam1330"
+              target="_blank"
+              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              View on GitHub →
+            </a>
           </div>
           <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
             <Image
@@ -85,7 +102,7 @@ const Projects = () => {
             />
           </div>
           <div className="w-full md:w-[50%]">
-            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Point of sale
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
@@ -100,13 +117,20 @@ const Projects = () => {
               In this project I used Laravel, Blade, MySQL, Bootstrap, Cypress,
               PHPUnit and Docker.
             </p>
+            <a
+              href="https://github.com/sam1330"
+              target="_blank"
+              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              View on GitHub →
+            </a>
           </div>
         </div>
 
         {/* PROJECT 4 */}
         <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
           <div className="w-full md:w-[50%]">
-            <h1 className="md:mt-10 text-6xl font-light leading-[5rem] mb-10">
+            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
               Traveler
             </h1>
             <p className=" text-stone-500 mb-7 text-lg">
@@ -121,6 +145,13 @@ const Projects = () => {
               In this project I used React.js, Axios, Material UI, Node Js,
               Google Maps and trip advisor API.
             </p>
+            <a
+              href="https://github.com/sam1330"
+              target="_blank"
+              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+            >
+              View on GitHub →
+            </a>
           </div>
           <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
             <Image

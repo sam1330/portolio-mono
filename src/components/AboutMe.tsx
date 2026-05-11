@@ -39,24 +39,28 @@ const AboutMe = () => {
             About <span className="font-semibold">Me</span>
           </h1>
           <p className=" text-stone-500 mb-7">
-            I&apos;m a Full Stack Developer and AI Engineer with 4+ years of
-            experience building scalable, high-impact software solutions. My
-            passion lies in transforming complex real-world challenges into
-            elegant, efficient, and measurable digital solutions.
+            I&apos;m a Full Stack and AI Engineer with 5+ years of experience
+            building scalable, high-impact software solutions. My expertise lies
+            at the intersection of robust web architecture and cutting-edge
+            Generative AI. I transform complex business challenges into
+            measurable digital success.
           </p>
           <p className=" text-stone-500 mb-7">
-            I specialize in: Developing full-stack applications using Next.js,
-            Laravel, Node.js, MySQL, and Docker Designing and integrating AI
-            tools to automate and optimize business processes Implementing TDD,
-            DDD, and scalable architecture patterns Migrating legacy codebases
-            to modern stacks writing clean, reusable code with an emphasis on
-            developer experience and performance
+            I specialize in: Building full-stack applications with Next.js,
+            React, Laravel, Node.js, PostgreSQL, and Docker Designing and
+            deploying custom AI agents and LLM-powered solutions (Gemini API,
+            Vertex AI, OpenAI) Automating document extraction and business
+            processes with generative AI Implementing TDD, DDD, and scalable
+            architecture patterns Writing clean, testable code with emphasis on
+            performance and developer experience
           </p>
           <p className=" text-stone-500">
-            I’m currently focused on advancing my AI engineering skills and
-            contributing to impactful SaaS platforms and government tech. Open
-            to collaborations, consulting, or mentoring opportunities in AI,
-            full-stack, and systems design.
+            Currently, I’m leading AI initiatives at Elaniin, architecting
+            custom AI agents managing hundreds of thousands of monthly requests.
+            I’m passionate about leveraging generative AI to solve real-world
+            problems and scale business impact. Open to collaborations on AI
+            innovation, consulting opportunities, and mentoring in AI
+            engineering and full-stack development.
           </p>
         </div>
       </div>

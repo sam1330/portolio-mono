@@ -13,6 +13,9 @@ import PostgreSQLIcon from "./Icons/PostgreSQLIcon";
 import ReactIcon from "./Icons/ReactIcon";
 import TailwindIcon from "./Icons/TailwindIcon";
 import TSIcon from "./Icons/TSIcon";
+import GeminiIcon from "./Icons/GeminiIcon";
+import GoogleCloudIcon from "./Icons/GoogleCloudIcon";
+import PythonIcon from "./Icons/PythonIcon";
 
 const skills = [
   {
@@ -84,6 +87,21 @@ const skills = [
     title: "OpenAI API",
     node: <OpenAIIcon />,
     href: "https://openai.com/es-ES/api/",
+  },
+  {
+    title: "Python",
+    node: <PythonIcon />,
+    href: "https://www.python.org/",
+  },
+  {
+    title: "Gemini API",
+    node: <GeminiIcon />,
+    href: "https://ai.google.dev/",
+  },
+  {
+    title: "Google Cloud",
+    node: <GoogleCloudIcon />,
+    href: "https://cloud.google.com/",
   },
 ];
 

@@ -17,12 +17,22 @@ interface IEmployment {
 const MyExperience = () => {
   const employments: Array<IEmployment> = [
     {
-      title: "Full Stack Engineer at Elaniin",
+      title: "Lead AI Engineer at Elaniin",
       location: "Remote",
-      date: "Apr 2023 - Present",
+      date: "Dec 2024 - Present",
       image: ElaniinImage,
       description:
-        "I work developing full stack features, primarily using Next.js, Laravel, MySQL, and Docker. I contributed to the development of a significant system for the government of El Salvador, automating processes to prepare reports, fines, and extensions, reducing the response and processing time of visa and residency applications by 80%. Additionally, I refactor and build high-quality, reusable components, implementing design patterns and best practices to expedite development time. My work also involve implementing TDD and DDD methodologies, while documenting every endpoint and component to ensure clarity in the development and maintenance processes.",
+        "Architected and deployed a custom AI Customer Service/Sales Agent from the ground up, successfully managing hundreds of thousands of monthly requests. Boosted client revenue and support efficiency by reaching record-breaking sales and customer satisfaction milestones through AI automation. Engineered AI-powered endpoints to automate data extraction from legal documents, resulting in a 60% reduction in processing time.",
+      techUsed:
+        "Gemini API, Vertex AI, OpenAI API, RAG, Google Cloud, Next.js, Python, TypeScript, Node.js, Cloud Functions, LangChain",
+    },
+    {
+      title: "Full Stack Engineer at Elaniin",
+      location: "Remote",
+      date: "Apr 2023 - Dec 2024",
+      image: ElaniinImage,
+      description:
+        "Developed full stack features using Next.js, Laravel, MySQL, and Docker. Contributed to a significant government system for El Salvador that automated visa and residency application processes, achieving an 80% reduction in response times for reports, fines, and extensions. Refactored code into high-quality, reusable components and implemented robust design patterns. Ensured system reliability through strict TDD and DDD methodologies.",
       techUsed:
         "Next.js, Typescript, PHP, Laravel, MySQL, Docker, Git, GitLab, Tailwind, React Query, Cypress, PHPUnit, Docker Compose",
     },
@@ -32,19 +42,19 @@ const MyExperience = () => {
       date: "Jul 2022 - Apr 2023",
       image: ProGPSImage,
       description:
-        "I worked with React.js, Laravel and MySQL to develop new features, fix bugs, and write tests for both existing and new code. I developed new core functionalities such as POS and inventory systems, which expanded the software’s capabilities and helped attract new clients, resulting in a 40% increase in sales. Additionally, I optimized legacy Laravel queries and enhanced the application's overall performance, improving API response times.",
+        "Delivered custom software solutions in React.js and Laravel to meet specific client business requirements. Enhanced application responsiveness by optimizing Laravel queries and overall system performance, improving API response times. Committed to code excellence by writing testable, high-quality code adhering to SOLID principles and industry best practices.",
       techUsed:
         "React.js, Laravel, MySQL, Git, BitBucket, Docker, Bootstrap, PHPUnit, Jest",
     },
     {
       title: "Jr. Full Stack Engineer at Aura Systems",
       location: "Santiago, D.R.",
-      date: "Jun 2021 - Jul 2022",
+      date: "Apr 2021 - Jul 2022",
       image: AuraImage,
       description:
-        "I worked with Vue, Laravel and MySQL. I created a component library with Vue 3 and TypeScript, which accelerated development time by up to 60%. Additionally, I developed a desktop application and implemented a routine to enable communication between Jackpot machines and computers via sockets using Python.",
+        "Modernized the frontend stack by migrating legacy Vue.js 2 components to Vue.js 3 and TypeScript. Engineered cross-platform hardware interactions by creating a Python-based desktop application that utilized sockets for communication between Jackpot machines and computers. Developed robust backend architecture using Laravel to create high-performance API endpoints.",
       techUsed:
-        "Vue 2, Vue 3, Javascript, Typescript, Laravel, MySQL, Python, Socket.IO, Pusher, Electron",
+        "Vue 2, Vue 3, JavaScript, TypeScript, Laravel, MySQL, Python, Socket.IO, Pusher, Electron",
     },
   ];
   return (
