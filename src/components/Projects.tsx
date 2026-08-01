@@ -3,6 +3,7 @@ import React from "react";
 import GasRD from "@/components/Icons/Gasolina RD.png";
 import CarWorkshop from "@/components/Icons/Car workshop.png";
 import Traveler from "@/components/Icons/traveler.png";
+import HakuAILanding from "@/components/Icons/Haku AI Landing.png";
 
 const Projects = () => {
   return (
@@ -10,161 +11,213 @@ const Projects = () => {
       id="projects"
       className="w-full flex justify-center mt-20 bg-black text-white pb-20 px-5 md:px-0"
     >
-      <div className="w-full md:w-full flex flex-col d-inline-block items-center">
-        <h1 className="mt-10 md:mb-10 text-6xl font-light leading-[5rem]">
+      <div className="w-full md:w-full flex flex-col items-center">
+        <h1 className="mt-10 mb-10 text-6xl font-light leading-[5rem]">
           My <span className="font-semibold">Projects</span>
         </h1>
 
-        {/* PROJECT: HAKU AI */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-10 md:pt-[100px]">
-          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg bg-gradient-to-br from-blue-600 to-blue-900 flex items-center justify-center">
-            <div className="text-center">
-              <p className="text-white text-5xl font-bold">HAKU</p>
-              <p className="text-blue-200 text-lg mt-2">AI</p>
+        <div className="w-full flex flex-col items-center gap-20 md:gap-28">
+          {/* PROJECT: HAKU AI */}
+          <div className="w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-[45%] md:h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src={HakuAILanding}
+                alt="Haku AI landing page"
+                className="rounded-lg w-full h-full object-cover"
+                width={700}
+                height={400}
+              />
+            </div>
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-6xl font-light leading-[5rem] mb-6">
+                Haku AI
+              </h1>
+              <p className=" text-stone-500 mb-7 text-lg">
+                An AI-powered resume analysis, resume building, and job
+                application platform. Haku AI parses uploaded resumes, scores
+                them with AI-driven ATS analysis, and helps users optimize and
+                rebuild their resumes into structured, editable data.
+                <br />
+                <br />
+                Key features include AI resume analysis &amp; optimization,
+                AI-generated cover letters tied to job applications, resume
+                PDF generation, job application tracking, dashboard
+                analytics, and a credit-based billing system powered by Lemon
+                Squeezy.
+                <br />
+                <br />
+                In this project I used Node.js, TypeScript, Express,
+                PostgreSQL, Knex.js, Google Gemini via Vertex AI, AWS S3,
+                Playwright, and Lemon Squeezy.
+              </p>
+              <a
+                href="https://haku-ai.com"
+                target="_blank"
+                className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                Visit Haku AI →
+              </a>
             </div>
           </div>
-          <div className="w-full md:w-[50%]">
-            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
-              Haku AI
-            </h1>
-            <p className=" text-stone-500 mb-7 text-lg">
-              A cutting-edge AI platform designed to deliver intelligent
-              solutions for modern businesses. Haku AI leverages generative AI
-              to automate complex workflows, provide intelligent insights, and
-              enhance customer experiences at scale.
-              <br />
-              <br />
-              Key features include custom AI agents, document processing,
-              intelligent chatbots, and data extraction pipelines. Built with
-              enterprise-grade architecture for reliability and scalability.
-              <br />
-              <br />
-              In this project I used Next.js, TypeScript, Gemini API, Vertex
-              AI, Google Cloud, Python, LangChain, and RAG architectures.
-            </p>
-            <a
-              href="https://haku-ai.com"
-              target="_blank"
-              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              Visit Haku AI →
-            </a>
-          </div>
-        </div>
 
-        {/* PROJECT 2 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
-          <div className="w-full md:w-[50%]">
-            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
-              Gasolina RD
-            </h1>
-            <p className=" text-stone-500 mb-7 text-lg">
-              This is a simple but very useful project. It is a web application
-              which allows you to find fuel stations that comply with
-              international regulations, since in the Dominican Republic there
-              is corruption with the stations and it is necessary to know which
-              ones sell good fuel to avoid damaging your vehicle. You can filter
-              by fuel type, province or city and stations directly. Also you can
-              see the results of tests done by the government.
-              <br />
-              <br />
-              In this project I used Next.js, Typescript, Tailwind, Node Js,
-              MySQL and GraphQL.
-            </p>
-            <a
-              href="https://github.com/sam1330"
-              target="_blank"
-              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              View on GitHub →
-            </a>
+          {/* PROJECT: AI LEAD GENERATOR */}
+          <div className="w-full md:w-3/4 flex flex-col-reverse md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-6xl font-light leading-[5rem] mb-6">
+                AI Lead Generator
+              </h1>
+              <p className=" text-stone-500 mb-7 text-lg">
+                A Telegram-controlled multi-agent system that finds, scores,
+                and drafts outreach for sales leads. A TypeScript/Node 22
+                orchestrator coordinates Discovery, Qualification, and
+                Outreach agents powered by Google Gemini.
+                <br />
+                <br />
+                Uses RAG via PostgreSQL/pgvector, MCP tools (Playwright,
+                Google Search), Drizzle ORM, Langfuse/OpenTelemetry
+                observability, and Sentry error monitoring.
+                <br />
+                <br />
+                In this project I used TypeScript, Node.js, Google Gemini,
+                PostgreSQL/pgvector, Drizzle ORM, MCP, Langfuse, and
+                OpenTelemetry.
+              </p>
+              <a
+                href="https://github.com/sam1330/lead-generator"
+                target="_blank"
+                className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                View on GitHub →
+              </a>
+            </div>
+            <div className="w-full md:w-[45%] md:h-[400px] rounded-lg bg-gradient-to-br from-emerald-600 to-emerald-900 flex items-center justify-center">
+              <div className="text-center px-6">
+                <p className="text-white text-3xl font-bold">AI Lead</p>
+                <p className="text-white text-3xl font-bold">Generator</p>
+                <p className="text-emerald-200 text-lg mt-2">
+                  Multi-Agent System
+                </p>
+              </div>
+            </div>
           </div>
-          <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
-            <Image
-              src={GasRD}
-              alt="Gasolina RD"
-              className="rounded-lg w-full h-full"
-              width={700}
-              height={400}
-            />
-          </div>
-        </div>
-        {/* PROJECT 3 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col md:flex-row justify-between relative pt-[80px]">
-          <div className="d-inline-block md:w-[40%] md:h-[400px] rounded-lg">
-            <Image
-              src={CarWorkshop}
-              alt="Car Workshop POS"
-              className="rounded-lg w-full h-full"
-              width={700}
-              height={400}
-            />
-          </div>
-          <div className="w-full md:w-[50%]">
-            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
-              Point of sale
-            </h1>
-            <p className=" text-stone-500 mb-7 text-lg">
-              This is a point of sale for a car workshop. It is a web
-              application which allows you to manage the inventory, sales,
-              employees and more of the workshop, you can also see the reports
-              of the sales and the inventory. It also has integration tests with
-              Cypress and PHPUnit to ensure the quality of the code and the app
-              is fully dockerized.
-              <br />
-              <br />
-              In this project I used Laravel, Blade, MySQL, Bootstrap, Cypress,
-              PHPUnit and Docker.
-            </p>
-            <a
-              href="https://github.com/sam1330"
-              target="_blank"
-              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              View on GitHub →
-            </a>
-          </div>
-        </div>
 
-        {/* PROJECT 4 */}
-        <div className="w-full h-full min-h-[600px] md:w-3/4 flex flex-col-reverse md:flex-row justify-between relative pt-[100px]">
-          <div className="w-full md:w-[50%]">
-            <h1 className="lg:mt-10 text-6xl font-light leading-[5rem] mb-10">
-              Traveler
-            </h1>
-            <p className=" text-stone-500 mb-7 text-lg">
-              This project is made for when you are on a trip and want to look
-              for places to visit. It is a web application that allows you to
-              find places to visit anywhere in the world, you can filter by type
-              of place and rating. As long as is in the map viewport, it will
-              look for places and you can see information about the places such
-              as price range, type of place, and rating.
-              <br />
-              <br />
-              In this project I used React.js, Axios, Material UI, Node Js,
-              Google Maps and trip advisor API.
-            </p>
-            <a
-              href="https://github.com/sam1330"
-              target="_blank"
-              className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
-            >
-              View on GitHub →
-            </a>
+          {/* PROJECT 2 */}
+          <div className="w-full md:w-3/4 flex flex-col-reverse md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-6xl font-light leading-[5rem] mb-6">
+                Gasolina RD
+              </h1>
+              <p className=" text-stone-500 mb-7 text-lg">
+                This is a simple but very useful project. It is a web
+                application which allows you to find fuel stations that
+                comply with international regulations, since in the Dominican
+                Republic there is corruption with the stations and it is
+                necessary to know which ones sell good fuel to avoid damaging
+                your vehicle. You can filter by fuel type, province or city
+                and stations directly. Also you can see the results of tests
+                done by the government.
+                <br />
+                <br />
+                In this project I used Next.js, Typescript, Tailwind, Node
+                Js, MySQL and GraphQL.
+              </p>
+              <a
+                href="https://github.com/sam1330"
+                target="_blank"
+                className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                View on GitHub →
+              </a>
+            </div>
+            <div className="w-full md:w-[45%] md:h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src={GasRD}
+                alt="Gasolina RD"
+                className="rounded-lg w-full h-full object-cover"
+                width={700}
+                height={400}
+              />
+            </div>
           </div>
-          <div className="d-inline-block  md:w-[40%] md:h-[400px] rounded-lg">
-            <Image
-              src={Traveler}
-              alt="Traveler"
-              className="rounded-lg w-full h-full"
-              width={700}
-              height={400}
-            />
+
+          {/* PROJECT 3 */}
+          <div className="w-full md:w-3/4 flex flex-col md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-[45%] md:h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src={CarWorkshop}
+                alt="Car Workshop POS"
+                className="rounded-lg w-full h-full object-cover"
+                width={700}
+                height={400}
+              />
+            </div>
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-6xl font-light leading-[5rem] mb-6">
+                Point of sale
+              </h1>
+              <p className=" text-stone-500 mb-7 text-lg">
+                This is a point of sale for a car workshop. It is a web
+                application which allows you to manage the inventory, sales,
+                employees and more of the workshop, you can also see the
+                reports of the sales and the inventory. It also has
+                integration tests with Cypress and PHPUnit to ensure the
+                quality of the code and the app is fully dockerized.
+                <br />
+                <br />
+                In this project I used Laravel, Blade, MySQL, Bootstrap,
+                Cypress, PHPUnit and Docker.
+              </p>
+              <a
+                href="https://github.com/sam1330"
+                target="_blank"
+                className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                View on GitHub →
+              </a>
+            </div>
+          </div>
+
+          {/* PROJECT 4 */}
+          <div className="w-full md:w-3/4 flex flex-col-reverse md:flex-row md:items-center gap-8 md:gap-16">
+            <div className="w-full md:w-[50%]">
+              <h1 className="text-6xl font-light leading-[5rem] mb-6">
+                Traveler
+              </h1>
+              <p className=" text-stone-500 mb-7 text-lg">
+                This project is made for when you are on a trip and want to
+                look for places to visit. It is a web application that allows
+                you to find places to visit anywhere in the world, you can
+                filter by type of place and rating. As long as is in the map
+                viewport, it will look for places and you can see information
+                about the places such as price range, type of place, and
+                rating.
+                <br />
+                <br />
+                In this project I used React.js, Axios, Material UI, Node Js,
+                Google Maps and trip advisor API.
+              </p>
+              <a
+                href="https://github.com/sam1330"
+                target="_blank"
+                className="inline-block mt-4 px-6 py-3 bg-blue-600 text-white rounded-lg hover:bg-blue-700 transition"
+              >
+                View on GitHub →
+              </a>
+            </div>
+            <div className="w-full md:w-[45%] md:h-[400px] rounded-lg overflow-hidden">
+              <Image
+                src={Traveler}
+                alt="Traveler"
+                className="rounded-lg w-full h-full object-cover"
+                width={700}
+                height={400}
+              />
+            </div>
           </div>
         </div>
 
         <div>
-          <h2 className="text-xl font-semibold mt-10">
+          <h2 className="text-xl font-semibold mt-16">
             You can find more interesting projects on my{" "}
             <a
               href="https://github.com/sam1330"

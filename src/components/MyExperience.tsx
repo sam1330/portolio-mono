@@ -22,9 +22,9 @@ const MyExperience = () => {
       date: "Dec 2024 - Present",
       image: ElaniinImage,
       description:
-        "Architected and deployed a custom AI Customer Service/Sales Agent from the ground up, successfully managing hundreds of thousands of monthly requests. Boosted client revenue and support efficiency by reaching record-breaking sales and customer satisfaction milestones through AI automation. Engineered AI-powered endpoints to automate data extraction from legal documents, resulting in a 60% reduction in processing time.",
+        "Architected SpecAgent, a multi-agent AI backend (NestJS/TypeScript, Google ADK orchestration, Claude via Vertex AI) that interviews users to auto-generate QA specifications and test cases for a government digital-procedures system, cutting manual spec-writing effort for QA teams. Built a Next.js 16/React 19 frontend with SSE-streamed real-time AI chat, tool-call visualization, and a live diffing/review workflow. Built a second AI agent — a custom Claude Code skill — that generates Playwright/TypeScript E2E test suites directly from approved specs, achieving almost-zero manual test authoring. Also architected and deployed a custom AI Customer Service/Sales Agent handling hundreds of thousands of monthly requests, and document AI/OCR pipelines that cut legal-document processing time by 60%.",
       techUsed:
-        "Gemini API, Vertex AI, OpenAI API, RAG, Google Cloud, Next.js, Python, TypeScript, Node.js, Cloud Functions, LangChain",
+        "NestJS, Google ADK, Claude API (Vertex), Gemini API, Gemini Live API, OpenAI API, RAG, Prisma ORM, PostgreSQL, Keycloak/JWT, Google Cloud Run, GitLab CI/CD, Next.js, React, TypeScript, Langfuse, OpenTelemetry",
     },
     {
       title: "Full Stack Engineer at Elaniin",
