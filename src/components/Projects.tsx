@@ -1,8 +1,5 @@
 import Image from "next/image";
 import React from "react";
-import GasRD from "@/components/Icons/Gasolina RD.png";
-import CarWorkshop from "@/components/Icons/Car workshop.png";
-import Traveler from "@/components/Icons/traveler.png";
 import HakuAILanding from "@/components/Icons/Haku AI Landing.png";
 
 const Projects = () => {
