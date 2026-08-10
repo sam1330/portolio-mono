@@ -42,16 +42,18 @@ const AboutMe = () => {
             I&apos;m a Full Stack and AI Engineer with 5+ years shipping
             production software and nearly 2 years building AI systems used by
             real customers at scale — multi-agent orchestration, LLM-powered
-            backends, and production-grade TypeScript/Node.js services. Track
+            backends, and production-grade TypeScript/Node.js and
+            Python/FastAPI services. Track
             record of taking generative AI from prototype to high-availability,
             observable production systems handling hundreds of thousands of
             monthly requests.
           </p>
           <p className=" text-stone-500 mb-7">
             I specialize in: building full-stack applications with Next.js,
-            NestJS, React, Laravel, Node.js, PostgreSQL, and Docker; designing
-            and deploying multi-agent AI systems and LLM-powered solutions
-            (Claude via Vertex AI, Gemini API, OpenAI API, Google ADK, RAG);
+            NestJS, FastAPI, React, Laravel, Node.js, PostgreSQL, and Docker;
+            designing and deploying multi-agent AI systems and LLM-powered
+            solutions (Claude via Vertex AI, Gemini API, OpenAI API, Google
+            ADK, RAG);
             automating document extraction and business processes with
             generative AI; implementing LLM observability with Langfuse and
             OpenTelemetry; and writing clean, testable code with emphasis on

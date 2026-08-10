@@ -31,20 +31,21 @@ const Projects = () => {
               </h1>
               <p className=" text-stone-500 mb-7 text-lg">
                 An AI-powered resume analysis, resume building, and job
-                application platform. Haku AI parses uploaded resumes, scores
-                them with AI-driven ATS analysis, and helps users optimize and
-                rebuild their resumes into structured, editable data.
+                application platform. Haku AI parses uploaded resumes
+                (PDF/DOCX), scores them with GPT-4-powered ATS analysis, and
+                helps users optimize and rebuild their resumes into
+                structured, editable data.
                 <br />
                 <br />
-                Key features include AI resume analysis &amp; optimization,
-                AI-generated cover letters tied to job applications, resume
-                PDF generation, job application tracking, dashboard
-                analytics, and a credit-based billing system powered by Lemon
-                Squeezy.
+                Key features include AI resume analysis &amp; ATS
+                optimization, AI-generated cover letters tied to job
+                applications, resume PDF generation, job application
+                tracking, dashboard analytics, and a credit-based billing
+                system powered by Lemon Squeezy.
                 <br />
                 <br />
-                In this project I used Node.js, TypeScript, Express,
-                PostgreSQL, Knex.js, Google Gemini via Vertex AI, AWS S3,
+                In this project I used Node.js, TypeScript, Express, JWT auth,
+                PostgreSQL, Knex.js, the OpenAI API (GPT-4), AWS S3,
                 Playwright, and Lemon Squeezy.
               </p>
               <a
@@ -75,9 +76,9 @@ const Projects = () => {
                 observability, and Sentry error monitoring.
                 <br />
                 <br />
-                In this project I used TypeScript, Node.js, Google Gemini,
-                PostgreSQL/pgvector, Drizzle ORM, MCP, Langfuse, and
-                OpenTelemetry.
+                In this project I used TypeScript, Node 22, Google Gemini,
+                PostgreSQL/pgvector, Drizzle ORM, MCP, Langfuse,
+                OpenTelemetry, and Sentry.
               </p>
               <a
                 href="https://github.com/sam1330/lead-generator"

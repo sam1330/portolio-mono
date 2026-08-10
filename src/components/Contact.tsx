@@ -132,7 +132,8 @@ const Contact = () => {
             {copied ? "Copied to clipboard ✓" : "Copy email address"}
           </button>
           <p className="text-sm text-stone-500">
-            Based in LATAM — available remotely across US &amp; EU time zones.
+            Based in Santiago, Dominican Republic — working remotely across US
+            &amp; EU time zones.
           </p>
         </div>
 

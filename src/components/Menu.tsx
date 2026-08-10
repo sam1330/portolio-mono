@@ -60,7 +60,7 @@ const Menu = () => {
           </a>
 
           <a
-            href="https://sam1330.github.io/portfolio-mono/assets/Samuel_Martinez_Resume.pdf"
+            href="https://sam1330.github.io/portolio-mono/assets/Samuel_Martinez_Resume.pdf"
             download="Samuel Martinez Resume"
             className="bg-black hover:bg-gray-800 text-white font-semibold  py-2 px-4 rounded flex gap-2 items-center"
           >
