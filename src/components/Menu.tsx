@@ -1,5 +1,6 @@
 import PillNav from "./Animated/PillNav";
 import DownloadIcon from "./Icons/DownloadIcon";
+import LinkedInIcon from "./Icons/LinkedInIcon";
 
 const Menu = () => {
   return (
@@ -12,6 +13,7 @@ const Menu = () => {
               { label: "Experience", href: "#experience" },
               { label: "About me", href: "#about-me" },
               { label: "Projects", href: "#projects" },
+              { label: "Contact", href: "#contact" },
             ]}
             activeHref="/"
             className="custom-nav"
@@ -45,13 +47,26 @@ const Menu = () => {
           </ul> */}
         </div>
 
-        <a
-          href="https://sam1330.github.io/portolio-mono/assets/Samuel Martinez - Full Stack Developer.pdf"
-          download="Samuel Martinez Resume"
-          className="bg-black hover:bg-gray-800 text-white font-semibold  py-2 px-4 rounded flex gap-2 items-center"
-        >
-          Resume <DownloadIcon />
-        </a>
+        <div className="flex items-center gap-4">
+          <a
+            href="https://www.linkedin.com/in/samuel-martinez-b742811b4/"
+            target="_blank"
+            rel="noopener noreferrer"
+            aria-label="LinkedIn profile"
+            title="LinkedIn"
+            className="flex h-10 w-10 items-center justify-center rounded-full border border-black/15 text-black transition-all duration-300 hover:-translate-y-0.5 hover:border-transparent hover:bg-[#0A66C2] hover:text-white"
+          >
+            <LinkedInIcon size={18} />
+          </a>
+
+          <a
+            href="https://sam1330.github.io/portfolio-mono/assets/Samuel_Martinez_Resume.pdf"
+            download="Samuel Martinez Resume"
+            className="bg-black hover:bg-gray-800 text-white font-semibold  py-2 px-4 rounded flex gap-2 items-center"
+          >
+            Resume <DownloadIcon />
+          </a>
+        </div>
       </div>
     </div>
   );

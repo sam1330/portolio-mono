@@ -1,4 +1,5 @@
 import AboutMe from "@/components/AboutMe";
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Menu from "@/components/Menu";
 import MyExperience from "@/components/MyExperience";
@@ -14,6 +15,7 @@ export default function Home() {
       <MyExperience />
       <AboutMe />
       <Projects />
+      <Contact />
     </div>
   );
 }
